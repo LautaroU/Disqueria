@@ -1,0 +1,213 @@
+body {
+    background-color: #646363;
+    margin: 0;
+    background-image: url(https://mixdownmag.com.au/wp-content/uploads/2015/04/Vinyl.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.header {
+    display: flex;
+    background-color:black ;
+    flex-direction: row;
+    border-bottom: #a8a8a8 1px solid;
+    justify-content: space-between;
+}
+.izquierda {
+    display: flex;
+    justify-content: center;
+}
+.medio {
+    display: flex;
+    flex-direction: row;
+    
+}
+.derecha {
+    display: flex;
+    justify-content: center;
+    
+}
+.cabeza {
+    display: flex;
+    flex-direction: row;
+}
+.myLibrary {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.logo {
+    display: flex;
+    height: 40px;
+    width: 100px;
+    align-self: center;
+    justify-content: center;
+}
+.davo {
+    display: flex;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: gray 1px solid;
+    border-right: 0px;
+}
+.searcherBar {
+    display: flex;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 350px;
+    border: gray 1px solid;
+}
+.buscar {
+    display: flex;
+    color:gray;
+    align-items: center;
+    margin-left: 10px;
+}
+.lupita {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    border: gray solid 1px;
+}
+.textHeader {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    margin-right:15px;
+}
+a:visited,a {
+    text-decoration: none;
+    color: white;
+    
+}
+.indices {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+p{
+    border: white 1px solid;
+    color: white;
+    padding: 5px;
+    padding-right: 20px;
+    
+}
+
+.indices:hover {
+    border-bottom: solid 2px rgb(252, 122, 0);;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.subTitle {
+    display: flex;
+    font-size: 35px;
+    color:rgb(252, 122, 0);
+    margin: 20px;
+    margin-bottom: 0px;
+    
+}
+
+.portada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adaptador {
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+
+.recommend {
+    display: flex;
+    flex-direction: column;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    background-color: #302f2f;
+    padding: 10px;
+    border-radius: 4%;
+    transition-property: transform, background;
+    transition-delay: 1;
+
+}
+.album:hover {
+    
+    background-color: #383838;
+  }
+
+.text {
+    display: flex;
+    color: white;
+    margin-top: 5px;
+}
+
+.albumGoat {
+    display: flex;
+    background-color: #00061d;
+    justify-content: space-around;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 40px;
+   
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.textGoat {
+    color:white;
+    margin-top: 10px;
+    
+}
+
+.adaptador2 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    
+}
+.title {
+    color: white;
+    font-size: 50px;
+    
+}
+.description {
+    margin-top: 40px;
+    color: white;
+    
+}
+

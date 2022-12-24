@@ -183,3 +183,9 @@ p{
     height: 300px;
     width: 300px;
 }
+
+.mpc {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
